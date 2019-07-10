@@ -1,0 +1,9 @@
+.wf-navigation{
+    text-align: center;
+    margin: 14px 0;
+}
+
+.wf-navigation button{
+   margin: 0 2px;
+   cursor: pointer;
+}

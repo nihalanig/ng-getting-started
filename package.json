@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve -o",
+    "start": "ng serve -o --port 4401",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -24,6 +24,7 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "rxjs": "~6.4.0",
+    "wavesurfer.js": "^2.0.0-beta01",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {

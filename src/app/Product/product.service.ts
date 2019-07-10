@@ -20,7 +20,7 @@ export class ProductService {
         return this.http.get<IProduct[]>(this.productUrl).pipe(
             tap(data=> console.log(JSON.stringify(data))),
             catchError(this.handleError)   
-        );        
+        );
     }
     private handleError(err: HttpErrorResponse){
         let errorMessage = '';
